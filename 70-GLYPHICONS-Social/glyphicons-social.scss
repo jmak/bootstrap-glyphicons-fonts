@@ -1,0 +1,254 @@
+/* GLYPHICONS SOCIAL 1.9.2 */
+
+@font-face {
+  font-family: 'Glyphicons Social';
+  src: url('../fonts/glyphicons-social-regular.woff2') format('woff2'), url('../fonts/glyphicons-social-regular.woff') format('woff');
+}
+
+$icon-prefix: social;
+
+[class*="#{$icon-prefix}-"] {
+  display: inline-block;
+  font-family: 'Glyphicons Social';
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$icon-prefix}-spin {
+  animation: #{$icon-prefix}-spin 2s infinite linear;
+}
+@keyframes #{$icon-prefix}-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+.#{$icon-prefix}-flip {
+  transform: scaleX(-1);
+}
+.#{$icon-prefix}-flipv {
+  transform: scaleY(-1);
+}
+.#{$icon-prefix}-rotate90 {
+  transform: rotate(90deg);
+}
+.#{$icon-prefix}-rotate180 {
+  transform: rotate(180deg);
+}
+.#{$icon-prefix}-rotate270 {
+  transform: rotate(270deg);
+}
+
+.#{$icon-prefix}-pinterest:before {
+  content: "\E001";
+}
+.#{$icon-prefix}-dropbox:before {
+  content: "\E002";
+}
+.#{$icon-prefix}-google-plus:before {
+  content: "\E003";
+}
+.#{$icon-prefix}-jolicloud:before {
+  content: "\E004";
+}
+.#{$icon-prefix}-yahoo:before {
+  content: "\E005";
+}
+.#{$icon-prefix}-blogger:before {
+  content: "\E006";
+}
+.#{$icon-prefix}-picasa:before {
+  content: "\E007";
+}
+.#{$icon-prefix}-amazon:before {
+  content: "\E008";
+}
+.#{$icon-prefix}-tumblr:before {
+  content: "\E009";
+}
+.#{$icon-prefix}-wordpress:before {
+  content: "\E010";
+}
+.#{$icon-prefix}-instapaper:before {
+  content: "\E011";
+}
+.#{$icon-prefix}-evernote:before {
+  content: "\E012";
+}
+.#{$icon-prefix}-xing:before {
+  content: "\E013";
+}
+.#{$icon-prefix}-e-mail-envelope:before {
+  content: "\E014";
+}
+.#{$icon-prefix}-dribbble:before {
+  content: "\E015";
+}
+.#{$icon-prefix}-deviantart:before {
+  content: "\E016";
+}
+.#{$icon-prefix}-read-it-later:before {
+  content: "\E017";
+}
+.#{$icon-prefix}-linked-in:before {
+  content: "\E018";
+}
+.#{$icon-prefix}-gmail:before {
+  content: "\E019";
+}
+.#{$icon-prefix}-pinboard:before {
+  content: "\E020";
+}
+.#{$icon-prefix}-behance:before {
+  content: "\E021";
+}
+.#{$icon-prefix}-github:before {
+  content: "\E022";
+}
+.#{$icon-prefix}-youtube:before {
+  content: "\E023";
+}
+.#{$icon-prefix}-open-id:before {
+  content: "\E024";
+}
+.#{$icon-prefix}-foursquare:before {
+  content: "\E025";
+}
+.#{$icon-prefix}-quora:before {
+  content: "\E026";
+}
+.#{$icon-prefix}-badoo:before {
+  content: "\E027";
+}
+.#{$icon-prefix}-spotify:before {
+  content: "\E028";
+}
+.#{$icon-prefix}-stumbleupon:before {
+  content: "\E029";
+}
+.#{$icon-prefix}-readability:before {
+  content: "\E030";
+}
+.#{$icon-prefix}-facebook:before {
+  content: "\E031";
+}
+.#{$icon-prefix}-twitter:before {
+  content: "\E032";
+}
+.#{$icon-prefix}-instagram:before {
+  content: "\E033";
+}
+.#{$icon-prefix}-posterous-spaces:before {
+  content: "\E034";
+}
+.#{$icon-prefix}-vimeo:before {
+  content: "\E035";
+}
+.#{$icon-prefix}-flickr:before {
+  content: "\E036";
+}
+.#{$icon-prefix}-last-fm:before {
+  content: "\E037";
+}
+.#{$icon-prefix}-rss:before {
+  content: "\E038";
+}
+.#{$icon-prefix}-skype:before {
+  content: "\E039";
+}
+.#{$icon-prefix}-e-mail:before {
+  content: "\E040";
+}
+.#{$icon-prefix}-vine:before {
+  content: "\E041";
+}
+.#{$icon-prefix}-myspace:before {
+  content: "\E042";
+}
+.#{$icon-prefix}-goodreads:before {
+  content: "\E043";
+}
+.#{$icon-prefix}-apple:before {
+  content: "\E044";
+}
+.#{$icon-prefix}-windows:before {
+  content: "\E045";
+}
+.#{$icon-prefix}-yelp:before {
+  content: "\E046";
+}
+.#{$icon-prefix}-playstation:before {
+  content: "\E047";
+}
+.#{$icon-prefix}-xbox:before {
+  content: "\E048";
+}
+.#{$icon-prefix}-android:before {
+  content: "\E049";
+}
+.#{$icon-prefix}-ios:before {
+  content: "\E050";
+}
+.#{$icon-prefix}-wikipedia:before {
+  content: "\E051";
+}
+.#{$icon-prefix}-pocket:before {
+  content: "\E052";
+}
+.#{$icon-prefix}-steam:before {
+  content: "\E053";
+}
+.#{$icon-prefix}-soundcloud:before {
+  content: "\E054";
+}
+.#{$icon-prefix}-slideshare:before {
+  content: "\E055";
+}
+.#{$icon-prefix}-netflix:before {
+  content: "\E056";
+}
+.#{$icon-prefix}-paypal:before {
+  content: "\E057";
+}
+.#{$icon-prefix}-google-drive:before {
+  content: "\E058";
+}
+.#{$icon-prefix}-linux-foundation:before {
+  content: "\E059";
+}
+.#{$icon-prefix}-ebay:before {
+  content: "\E060";
+}
+.#{$icon-prefix}-bitbucket:before {
+  content: "\E061";
+}
+.#{$icon-prefix}-whatsapp:before {
+  content: "\E062";
+}
+.#{$icon-prefix}-buffer:before {
+  content: "\E063";
+}
+.#{$icon-prefix}-medium:before {
+  content: "\E064";
+}
+.#{$icon-prefix}-stackoverflow:before {
+  content: "\E065";
+}
+.#{$icon-prefix}-linux:before {
+  content: "\E066";
+}
+.#{$icon-prefix}-vk:before {
+  content: "\E067";
+}
+.#{$icon-prefix}-snapchat:before {
+  content: "\E068";
+}
+.#{$icon-prefix}-etsy:before {
+  content: "\E069";
+}
+.#{$icon-prefix}-stackexchange:before {
+  content: "\E070";
+}

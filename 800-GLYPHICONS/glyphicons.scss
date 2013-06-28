@@ -1,0 +1,2444 @@
+/* GLYPHICONS 1.9.2 */
+
+@font-face {
+  font-family: 'Glyphicons Regular';
+  src: url('../fonts/glyphicons-regular.woff2') format('woff2'), url('../fonts/glyphicons-regular.woff') format('woff')
+}
+
+$icon-prefix: glyphicon;
+
+[class*="#{$icon-prefix}-"] {
+  display: inline-block;
+  font-family: 'Glyphicons Regular';
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$icon-prefix}-spin {
+  animation: #{$icon-prefix}-spin 2s infinite linear;
+}
+@keyframes #{$icon-prefix}-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+.#{$icon-prefix}-flip {
+  transform: scaleX(-1);
+}
+.#{$icon-prefix}-flipv {
+  transform: scaleY(-1);
+}
+.#{$icon-prefix}-rotate90 {
+  transform: rotate(90deg);
+}
+.#{$icon-prefix}-rotate180 {
+  transform: rotate(180deg);
+}
+.#{$icon-prefix}-rotate270 {
+  transform: rotate(270deg);
+}
+
+.#{$icon-prefix}-glass:before {
+  content: "\E001";
+}
+.#{$icon-prefix}-leaf:before {
+  content: "\E002";
+}
+.#{$icon-prefix}-dog:before {
+  content: "\E003";
+}
+.#{$icon-prefix}-user:before {
+  content: "\E004";
+}
+.#{$icon-prefix}-girl:before {
+  content: "\E005";
+}
+.#{$icon-prefix}-car:before {
+  content: "\E006";
+}
+.#{$icon-prefix}-user-add:before {
+  content: "\E007";
+}
+.#{$icon-prefix}-user-remove:before {
+  content: "\E008";
+}
+.#{$icon-prefix}-film:before {
+  content: "\E009";
+}
+.#{$icon-prefix}-magic:before {
+  content: "\E010";
+}
+.#{$icon-prefix}-envelope:before {
+  content: "\E011";
+}
+.#{$icon-prefix}-camera:before {
+  content: "\E012";
+}
+.#{$icon-prefix}-heart:before {
+  content: "\E013";
+}
+.#{$icon-prefix}-beach-umbrella:before {
+  content: "\E014";
+}
+.#{$icon-prefix}-train:before {
+  content: "\E015";
+}
+.#{$icon-prefix}-print:before {
+  content: "\E016";
+}
+.#{$icon-prefix}-bin:before {
+  content: "\E017";
+}
+.#{$icon-prefix}-music:before {
+  content: "\E018";
+}
+.#{$icon-prefix}-music-alt:before {
+  content: "\E019";
+}
+.#{$icon-prefix}-heart-empty:before {
+  content: "\E020";
+}
+.#{$icon-prefix}-home:before {
+  content: "\E021";
+}
+.#{$icon-prefix}-snowflake:before {
+  content: "\E022";
+}
+.#{$icon-prefix}-fire:before {
+  content: "\E023";
+}
+.#{$icon-prefix}-magnet:before {
+  content: "\E024";
+}
+.#{$icon-prefix}-parents:before {
+  content: "\E025";
+}
+.#{$icon-prefix}-binoculars:before {
+  content: "\E026";
+}
+.#{$icon-prefix}-road:before {
+  content: "\E027";
+}
+.#{$icon-prefix}-search:before {
+  content: "\E028";
+}
+.#{$icon-prefix}-cars:before {
+  content: "\E029";
+}
+.#{$icon-prefix}-notes-2:before {
+  content: "\E030";
+}
+.#{$icon-prefix}-pencil:before {
+  content: "\E031";
+}
+.#{$icon-prefix}-bus:before {
+  content: "\E032";
+}
+.#{$icon-prefix}-wifi-alt:before {
+  content: "\E033";
+}
+.#{$icon-prefix}-luggage:before {
+  content: "\E034";
+}
+.#{$icon-prefix}-old-man:before {
+  content: "\E035";
+}
+.#{$icon-prefix}-woman:before {
+  content: "\E036";
+}
+.#{$icon-prefix}-file:before {
+  content: "\E037";
+}
+.#{$icon-prefix}-coins:before {
+  content: "\E038";
+}
+.#{$icon-prefix}-plane:before {
+  content: "\E039";
+}
+.#{$icon-prefix}-notes:before {
+  content: "\E040";
+}
+.#{$icon-prefix}-stats:before {
+  content: "\E041";
+}
+.#{$icon-prefix}-charts:before {
+  content: "\E042";
+}
+.#{$icon-prefix}-pie-chart:before {
+  content: "\E043";
+}
+.#{$icon-prefix}-group:before {
+  content: "\E044";
+}
+.#{$icon-prefix}-keys:before {
+  content: "\E045";
+}
+.#{$icon-prefix}-calendar:before {
+  content: "\E046";
+}
+.#{$icon-prefix}-router:before {
+  content: "\E047";
+}
+.#{$icon-prefix}-camera-small:before {
+  content: "\E048";
+}
+.#{$icon-prefix}-star-empty:before {
+  content: "\E049";
+}
+.#{$icon-prefix}-star:before {
+  content: "\E050";
+}
+.#{$icon-prefix}-link:before {
+  content: "\E051";
+}
+.#{$icon-prefix}-eye-open:before {
+  content: "\E052";
+}
+.#{$icon-prefix}-eye-close:before {
+  content: "\E053";
+}
+.#{$icon-prefix}-alarm:before {
+  content: "\E054";
+}
+.#{$icon-prefix}-clock:before {
+  content: "\E055";
+}
+.#{$icon-prefix}-stopwatch:before {
+  content: "\E056";
+}
+.#{$icon-prefix}-projector:before {
+  content: "\E057";
+}
+.#{$icon-prefix}-history:before {
+  content: "\E058";
+}
+.#{$icon-prefix}-truck:before {
+  content: "\E059";
+}
+.#{$icon-prefix}-cargo:before {
+  content: "\E060";
+}
+.#{$icon-prefix}-compass:before {
+  content: "\E061";
+}
+.#{$icon-prefix}-keynote:before {
+  content: "\E062";
+}
+.#{$icon-prefix}-paperclip:before {
+  content: "\E063";
+}
+.#{$icon-prefix}-power:before {
+  content: "\E064";
+}
+.#{$icon-prefix}-lightbulb:before {
+  content: "\E065";
+}
+.#{$icon-prefix}-tag:before {
+  content: "\E066";
+}
+.#{$icon-prefix}-tags:before {
+  content: "\E067";
+}
+.#{$icon-prefix}-cleaning:before {
+  content: "\E068";
+}
+.#{$icon-prefix}-ruler:before {
+  content: "\E069";
+}
+.#{$icon-prefix}-gift:before {
+  content: "\E070";
+}
+.#{$icon-prefix}-umbrella:before {
+  content: "\E071";
+}
+.#{$icon-prefix}-book:before {
+  content: "\E072";
+}
+.#{$icon-prefix}-bookmark:before {
+  content: "\E073";
+}
+.#{$icon-prefix}-wifi:before {
+  content: "\E074";
+}
+.#{$icon-prefix}-cup:before {
+  content: "\E075";
+}
+.#{$icon-prefix}-stroller:before {
+  content: "\E076";
+}
+.#{$icon-prefix}-headphones:before {
+  content: "\E077";
+}
+.#{$icon-prefix}-headset:before {
+  content: "\E078";
+}
+.#{$icon-prefix}-warning-sign:before {
+  content: "\E079";
+}
+.#{$icon-prefix}-signal:before {
+  content: "\E080";
+}
+.#{$icon-prefix}-retweet:before {
+  content: "\E081";
+}
+.#{$icon-prefix}-refresh:before {
+  content: "\E082";
+}
+.#{$icon-prefix}-roundabout:before {
+  content: "\E083";
+}
+.#{$icon-prefix}-random:before {
+  content: "\E084";
+}
+.#{$icon-prefix}-heat:before {
+  content: "\E085";
+}
+.#{$icon-prefix}-repeat:before {
+  content: "\E086";
+}
+.#{$icon-prefix}-display:before {
+  content: "\E087";
+}
+.#{$icon-prefix}-log-book:before {
+  content: "\E088";
+}
+.#{$icon-prefix}-address-book:before {
+  content: "\E089";
+}
+.#{$icon-prefix}-building:before {
+  content: "\E090";
+}
+.#{$icon-prefix}-eyedropper:before {
+  content: "\E091";
+}
+.#{$icon-prefix}-adjust:before {
+  content: "\E092";
+}
+.#{$icon-prefix}-tint:before {
+  content: "\E093";
+}
+.#{$icon-prefix}-crop:before {
+  content: "\E094";
+}
+.#{$icon-prefix}-vector-path-square:before {
+  content: "\E095";
+}
+.#{$icon-prefix}-vector-path-circle:before {
+  content: "\E096";
+}
+.#{$icon-prefix}-vector-path-polygon:before {
+  content: "\E097";
+}
+.#{$icon-prefix}-vector-path-line:before {
+  content: "\E098";
+}
+.#{$icon-prefix}-vector-path-curve:before {
+  content: "\E099";
+}
+.#{$icon-prefix}-vector-path-all:before {
+  content: "\E100";
+}
+.#{$icon-prefix}-font:before {
+  content: "\E101";
+}
+.#{$icon-prefix}-italic:before {
+  content: "\E102";
+}
+.#{$icon-prefix}-bold:before {
+  content: "\E103";
+}
+.#{$icon-prefix}-text-underline:before {
+  content: "\E104";
+}
+.#{$icon-prefix}-text-strike:before {
+  content: "\E105";
+}
+.#{$icon-prefix}-text-height:before {
+  content: "\E106";
+}
+.#{$icon-prefix}-text-width:before {
+  content: "\E107";
+}
+.#{$icon-prefix}-text-resize:before {
+  content: "\E108";
+}
+.#{$icon-prefix}-left-indent:before {
+  content: "\E109";
+}
+.#{$icon-prefix}-right-indent:before {
+  content: "\E110";
+}
+.#{$icon-prefix}-align-left:before {
+  content: "\E111";
+}
+.#{$icon-prefix}-align-center:before {
+  content: "\E112";
+}
+.#{$icon-prefix}-align-right:before {
+  content: "\E113";
+}
+.#{$icon-prefix}-justify:before {
+  content: "\E114";
+}
+.#{$icon-prefix}-list:before {
+  content: "\E115";
+}
+.#{$icon-prefix}-text-smaller:before {
+  content: "\E116";
+}
+.#{$icon-prefix}-text-bigger:before {
+  content: "\E117";
+}
+.#{$icon-prefix}-embed:before {
+  content: "\E118";
+}
+.#{$icon-prefix}-embed-close:before {
+  content: "\E119";
+}
+.#{$icon-prefix}-table:before {
+  content: "\E120";
+}
+.#{$icon-prefix}-message-full:before {
+  content: "\E121";
+}
+.#{$icon-prefix}-message-empty:before {
+  content: "\E122";
+}
+.#{$icon-prefix}-message-in:before {
+  content: "\E123";
+}
+.#{$icon-prefix}-message-out:before {
+  content: "\E124";
+}
+.#{$icon-prefix}-message-plus:before {
+  content: "\E125";
+}
+.#{$icon-prefix}-message-minus:before {
+  content: "\E126";
+}
+.#{$icon-prefix}-message-ban:before {
+  content: "\E127";
+}
+.#{$icon-prefix}-message-flag:before {
+  content: "\E128";
+}
+.#{$icon-prefix}-message-lock:before {
+  content: "\E129";
+}
+.#{$icon-prefix}-message-new:before {
+  content: "\E130";
+}
+.#{$icon-prefix}-inbox:before {
+  content: "\E131";
+}
+.#{$icon-prefix}-inbox-plus:before {
+  content: "\E132";
+}
+.#{$icon-prefix}-inbox-minus:before {
+  content: "\E133";
+}
+.#{$icon-prefix}-inbox-lock:before {
+  content: "\E134";
+}
+.#{$icon-prefix}-inbox-in:before {
+  content: "\E135";
+}
+.#{$icon-prefix}-inbox-out:before {
+  content: "\E136";
+}
+.#{$icon-prefix}-cogwheel:before {
+  content: "\E137";
+}
+.#{$icon-prefix}-cogwheels:before {
+  content: "\E138";
+}
+.#{$icon-prefix}-picture:before {
+  content: "\E139";
+}
+.#{$icon-prefix}-adjust-alt:before {
+  content: "\E140";
+}
+.#{$icon-prefix}-database-lock:before {
+  content: "\E141";
+}
+.#{$icon-prefix}-database-plus:before {
+  content: "\E142";
+}
+.#{$icon-prefix}-database-minus:before {
+  content: "\E143";
+}
+.#{$icon-prefix}-database-ban:before {
+  content: "\E144";
+}
+.#{$icon-prefix}-folder-open:before {
+  content: "\E145";
+}
+.#{$icon-prefix}-folder-plus:before {
+  content: "\E146";
+}
+.#{$icon-prefix}-folder-minus:before {
+  content: "\E147";
+}
+.#{$icon-prefix}-folder-lock:before {
+  content: "\E148";
+}
+.#{$icon-prefix}-folder-flag:before {
+  content: "\E149";
+}
+.#{$icon-prefix}-folder-new:before {
+  content: "\E150";
+}
+.#{$icon-prefix}-edit:before {
+  content: "\E151";
+}
+.#{$icon-prefix}-new-window:before {
+  content: "\E152";
+}
+.#{$icon-prefix}-check:before {
+  content: "\E153";
+}
+.#{$icon-prefix}-unchecked:before {
+  content: "\E154";
+}
+.#{$icon-prefix}-more-windows:before {
+  content: "\E155";
+}
+.#{$icon-prefix}-show-big-thumbnails:before {
+  content: "\E156";
+}
+.#{$icon-prefix}-show-thumbnails:before {
+  content: "\E157";
+}
+.#{$icon-prefix}-show-thumbnails-with-lines:before {
+  content: "\E158";
+}
+.#{$icon-prefix}-show-lines:before {
+  content: "\E159";
+}
+.#{$icon-prefix}-playlist:before {
+  content: "\E160";
+}
+.#{$icon-prefix}-imac:before {
+  content: "\E161";
+}
+.#{$icon-prefix}-macbook:before {
+  content: "\E162";
+}
+.#{$icon-prefix}-ipad:before {
+  content: "\E163";
+}
+.#{$icon-prefix}-iphone:before {
+  content: "\E164";
+}
+.#{$icon-prefix}-iphone-transfer:before {
+  content: "\E165";
+}
+.#{$icon-prefix}-iphone-exchange:before {
+  content: "\E166";
+}
+.#{$icon-prefix}-ipod:before {
+  content: "\E167";
+}
+.#{$icon-prefix}-ipod-shuffle:before {
+  content: "\E168";
+}
+.#{$icon-prefix}-ear-plugs:before {
+  content: "\E169";
+}
+.#{$icon-prefix}-record:before {
+  content: "\E170";
+}
+.#{$icon-prefix}-step-backward:before {
+  content: "\E171";
+}
+.#{$icon-prefix}-fast-backward:before {
+  content: "\E172";
+}
+.#{$icon-prefix}-rewind:before {
+  content: "\E173";
+}
+.#{$icon-prefix}-play:before {
+  content: "\E174";
+}
+.#{$icon-prefix}-pause:before {
+  content: "\E175";
+}
+.#{$icon-prefix}-stop:before {
+  content: "\E176";
+}
+.#{$icon-prefix}-forward:before {
+  content: "\E177";
+}
+.#{$icon-prefix}-fast-forward:before {
+  content: "\E178";
+}
+.#{$icon-prefix}-step-forward:before {
+  content: "\E179";
+}
+.#{$icon-prefix}-eject:before {
+  content: "\E180";
+}
+.#{$icon-prefix}-facetime-video:before {
+  content: "\E181";
+}
+.#{$icon-prefix}-download-alt:before {
+  content: "\E182";
+}
+.#{$icon-prefix}-mute:before {
+  content: "\E183";
+}
+.#{$icon-prefix}-volume-down:before {
+  content: "\E184";
+}
+.#{$icon-prefix}-volume-up:before {
+  content: "\E185";
+}
+.#{$icon-prefix}-screenshot:before {
+  content: "\E186";
+}
+.#{$icon-prefix}-move:before {
+  content: "\E187";
+}
+.#{$icon-prefix}-more:before {
+  content: "\E188";
+}
+.#{$icon-prefix}-brightness-reduce:before {
+  content: "\E189";
+}
+.#{$icon-prefix}-brightness-increase:before {
+  content: "\E190";
+}
+.#{$icon-prefix}-plus-sign:before {
+  content: "\E191";
+}
+.#{$icon-prefix}-minus-sign:before {
+  content: "\E192";
+}
+.#{$icon-prefix}-remove-sign:before {
+  content: "\E193";
+}
+.#{$icon-prefix}-ok-sign:before {
+  content: "\E194";
+}
+.#{$icon-prefix}-question-sign:before {
+  content: "\E195";
+}
+.#{$icon-prefix}-info-sign:before {
+  content: "\E196";
+}
+.#{$icon-prefix}-exclamation-sign:before {
+  content: "\E197";
+}
+.#{$icon-prefix}-remove-circle:before {
+  content: "\E198";
+}
+.#{$icon-prefix}-ok-circle:before {
+  content: "\E199";
+}
+.#{$icon-prefix}-ban-circle:before {
+  content: "\E200";
+}
+.#{$icon-prefix}-download:before {
+  content: "\E201";
+}
+.#{$icon-prefix}-upload:before {
+  content: "\E202";
+}
+.#{$icon-prefix}-shopping-cart:before {
+  content: "\E203";
+}
+.#{$icon-prefix}-lock:before {
+  content: "\E204";
+}
+.#{$icon-prefix}-unlock:before {
+  content: "\E205";
+}
+.#{$icon-prefix}-electricity:before {
+  content: "\E206";
+}
+.#{$icon-prefix}-ok:before {
+  content: "\E207";
+}
+.#{$icon-prefix}-remove:before {
+  content: "\E208";
+}
+.#{$icon-prefix}-cart-in:before {
+  content: "\E209";
+}
+.#{$icon-prefix}-cart-out:before {
+  content: "\E210";
+}
+.#{$icon-prefix}-arrow-left:before {
+  content: "\E211";
+}
+.#{$icon-prefix}-arrow-right:before {
+  content: "\E212";
+}
+.#{$icon-prefix}-arrow-down:before {
+  content: "\E213";
+}
+.#{$icon-prefix}-arrow-up:before {
+  content: "\E214";
+}
+.#{$icon-prefix}-resize-small:before {
+  content: "\E215";
+}
+.#{$icon-prefix}-resize-full:before {
+  content: "\E216";
+}
+.#{$icon-prefix}-circle-arrow-left:before {
+  content: "\E217";
+}
+.#{$icon-prefix}-circle-arrow-right:before {
+  content: "\E218";
+}
+.#{$icon-prefix}-circle-arrow-top:before {
+  content: "\E219";
+}
+.#{$icon-prefix}-circle-arrow-down:before {
+  content: "\E220";
+}
+.#{$icon-prefix}-play-button:before {
+  content: "\E221";
+}
+.#{$icon-prefix}-unshare:before {
+  content: "\E222";
+}
+.#{$icon-prefix}-share:before {
+  content: "\E223";
+}
+.#{$icon-prefix}-chevron-right:before {
+  content: "\E224";
+}
+.#{$icon-prefix}-chevron-left:before {
+  content: "\E225";
+}
+.#{$icon-prefix}-bluetooth:before {
+  content: "\E226";
+}
+.#{$icon-prefix}-euro:before {
+  content: "\E227";
+}
+.#{$icon-prefix}-usd:before {
+  content: "\E228";
+}
+.#{$icon-prefix}-gbp:before {
+  content: "\E229";
+}
+.#{$icon-prefix}-retweet-2:before {
+  content: "\E230";
+}
+.#{$icon-prefix}-moon:before {
+  content: "\E231";
+}
+.#{$icon-prefix}-sun:before {
+  content: "\E232";
+}
+.#{$icon-prefix}-cloud:before {
+  content: "\E233";
+}
+.#{$icon-prefix}-direction:before {
+  content: "\E234";
+}
+.#{$icon-prefix}-brush:before {
+  content: "\E235";
+}
+.#{$icon-prefix}-pen:before {
+  content: "\E236";
+}
+.#{$icon-prefix}-zoom-in:before {
+  content: "\E237";
+}
+.#{$icon-prefix}-zoom-out:before {
+  content: "\E238";
+}
+.#{$icon-prefix}-pin:before {
+  content: "\E239";
+}
+.#{$icon-prefix}-albums:before {
+  content: "\E240";
+}
+.#{$icon-prefix}-rotation-lock:before {
+  content: "\E241";
+}
+.#{$icon-prefix}-flash:before {
+  content: "\E242";
+}
+.#{$icon-prefix}-map-marker:before {
+  content: "\E243";
+}
+.#{$icon-prefix}-anchor:before {
+  content: "\E244";
+}
+.#{$icon-prefix}-conversation:before {
+  content: "\E245";
+}
+.#{$icon-prefix}-chat:before {
+  content: "\E246";
+}
+.#{$icon-prefix}-note-empty:before {
+  content: "\E247";
+}
+.#{$icon-prefix}-note:before {
+  content: "\E248";
+}
+.#{$icon-prefix}-asterisk:before {
+  content: "\E249";
+}
+.#{$icon-prefix}-divide:before {
+  content: "\E250";
+}
+.#{$icon-prefix}-snorkel-diving:before {
+  content: "\E251";
+}
+.#{$icon-prefix}-scuba-diving:before {
+  content: "\E252";
+}
+.#{$icon-prefix}-oxygen-bottle:before {
+  content: "\E253";
+}
+.#{$icon-prefix}-fins:before {
+  content: "\E254";
+}
+.#{$icon-prefix}-fishes:before {
+  content: "\E255";
+}
+.#{$icon-prefix}-boat:before {
+  content: "\E256";
+}
+.#{$icon-prefix}-delete:before {
+  content: "\E257";
+}
+.#{$icon-prefix}-sheriffs-star:before {
+  content: "\E258";
+}
+.#{$icon-prefix}-qrcode:before {
+  content: "\E259";
+}
+.#{$icon-prefix}-barcode:before {
+  content: "\E260";
+}
+.#{$icon-prefix}-pool:before {
+  content: "\E261";
+}
+.#{$icon-prefix}-buoy:before {
+  content: "\E262";
+}
+.#{$icon-prefix}-spade:before {
+  content: "\E263";
+}
+.#{$icon-prefix}-bank:before {
+  content: "\E264";
+}
+.#{$icon-prefix}-vcard:before {
+  content: "\E265";
+}
+.#{$icon-prefix}-electrical-plug:before {
+  content: "\E266";
+}
+.#{$icon-prefix}-flag:before {
+  content: "\E267";
+}
+.#{$icon-prefix}-credit-card:before {
+  content: "\E268";
+}
+.#{$icon-prefix}-keyboard-wireless:before {
+  content: "\E269";
+}
+.#{$icon-prefix}-keyboard-wireless:before {
+  content: "\E270";
+}
+.#{$icon-prefix}-shield:before {
+  content: "\E271";
+}
+.#{$icon-prefix}-ring:before {
+  content: "\E272";
+}
+.#{$icon-prefix}-cake:before {
+  content: "\E273";
+}
+.#{$icon-prefix}-drink:before {
+  content: "\E274";
+}
+.#{$icon-prefix}-beer:before {
+  content: "\E275";
+}
+.#{$icon-prefix}-fast-food:before {
+  content: "\E276";
+}
+.#{$icon-prefix}-cutlery:before {
+  content: "\E277";
+}
+.#{$icon-prefix}-pizza:before {
+  content: "\E278";
+}
+.#{$icon-prefix}-birthday-cake:before {
+  content: "\E279";
+}
+.#{$icon-prefix}-tablet:before {
+  content: "\E280";
+}
+.#{$icon-prefix}-settings:before {
+  content: "\E281";
+}
+.#{$icon-prefix}-bullets:before {
+  content: "\E282";
+}
+.#{$icon-prefix}-cardio:before {
+  content: "\E283";
+}
+.#{$icon-prefix}-t-shirt:before {
+  content: "\E284";
+}
+.#{$icon-prefix}-pants:before {
+  content: "\E285";
+}
+.#{$icon-prefix}-sweater:before {
+  content: "\E286";
+}
+.#{$icon-prefix}-fabric:before {
+  content: "\E287";
+}
+.#{$icon-prefix}-leather:before {
+  content: "\E288";
+}
+.#{$icon-prefix}-scissors:before {
+  content: "\E289";
+}
+.#{$icon-prefix}-bomb:before {
+  content: "\E290";
+}
+.#{$icon-prefix}-skull:before {
+  content: "\E291";
+}
+.#{$icon-prefix}-celebration:before {
+  content: "\E292";
+}
+.#{$icon-prefix}-tea-kettle:before {
+  content: "\E293";
+}
+.#{$icon-prefix}-french-press:before {
+  content: "\E294";
+}
+.#{$icon-prefix}-coffee-cup:before {
+  content: "\E295";
+}
+.#{$icon-prefix}-pot:before {
+  content: "\E296";
+}
+.#{$icon-prefix}-grater:before {
+  content: "\E297";
+}
+.#{$icon-prefix}-kettle:before {
+  content: "\E298";
+}
+.#{$icon-prefix}-hospital:before {
+  content: "\E299";
+}
+.#{$icon-prefix}-hospital-h:before {
+  content: "\E300";
+}
+.#{$icon-prefix}-microphone:before {
+  content: "\E301";
+}
+.#{$icon-prefix}-webcam:before {
+  content: "\E302";
+}
+.#{$icon-prefix}-temple-christianity-church:before {
+  content: "\E303";
+}
+.#{$icon-prefix}-temple-islam:before {
+  content: "\E304";
+}
+.#{$icon-prefix}-temple-hindu:before {
+  content: "\E305";
+}
+.#{$icon-prefix}-temple-buddhist:before {
+  content: "\E306";
+}
+.#{$icon-prefix}-bicycle:before {
+  content: "\E307";
+}
+.#{$icon-prefix}-life-preserver:before {
+  content: "\E308";
+}
+.#{$icon-prefix}-share-alt:before {
+  content: "\E309";
+}
+.#{$icon-prefix}-comments:before {
+  content: "\E310";
+}
+.#{$icon-prefix}-flower:before {
+  content: "\E311";
+}
+.#{$icon-prefix}-baseball:before {
+  content: "\E312";
+}
+.#{$icon-prefix}-rugby:before {
+  content: "\E313";
+}
+.#{$icon-prefix}-ax:before {
+  content: "\E314";
+}
+.#{$icon-prefix}-table-tennis:before {
+  content: "\E315";
+}
+.#{$icon-prefix}-bowling:before {
+  content: "\E316";
+}
+.#{$icon-prefix}-tree-conifer:before {
+  content: "\E317";
+}
+.#{$icon-prefix}-tree-deciduous:before {
+  content: "\E318";
+}
+.#{$icon-prefix}-more-items:before {
+  content: "\E319";
+}
+.#{$icon-prefix}-sort:before {
+  content: "\E320";
+}
+.#{$icon-prefix}-filter:before {
+  content: "\E321";
+}
+.#{$icon-prefix}-gamepad:before {
+  content: "\E322";
+}
+.#{$icon-prefix}-playing-dices:before {
+  content: "\E323";
+}
+.#{$icon-prefix}-calculator:before {
+  content: "\E324";
+}
+.#{$icon-prefix}-tie:before {
+  content: "\E325";
+}
+.#{$icon-prefix}-wallet:before {
+  content: "\E326";
+}
+.#{$icon-prefix}-piano:before {
+  content: "\E327";
+}
+.#{$icon-prefix}-sampler:before {
+  content: "\E328";
+}
+.#{$icon-prefix}-podium:before {
+  content: "\E329";
+}
+.#{$icon-prefix}-soccer-ball:before {
+  content: "\E330";
+}
+.#{$icon-prefix}-blog:before {
+  content: "\E331";
+}
+.#{$icon-prefix}-dashboard:before {
+  content: "\E332";
+}
+.#{$icon-prefix}-certificate:before {
+  content: "\E333";
+}
+.#{$icon-prefix}-bell:before {
+  content: "\E334";
+}
+.#{$icon-prefix}-candle:before {
+  content: "\E335";
+}
+.#{$icon-prefix}-pushpin:before {
+  content: "\E336";
+}
+.#{$icon-prefix}-iphone-shake:before {
+  content: "\E337";
+}
+.#{$icon-prefix}-pin-flag:before {
+  content: "\E338";
+}
+.#{$icon-prefix}-turtle:before {
+  content: "\E339";
+}
+.#{$icon-prefix}-rabbit:before {
+  content: "\E340";
+}
+.#{$icon-prefix}-globe:before {
+  content: "\E341";
+}
+.#{$icon-prefix}-briefcase:before {
+  content: "\E342";
+}
+.#{$icon-prefix}-hdd:before {
+  content: "\E343";
+}
+.#{$icon-prefix}-thumbs-up:before {
+  content: "\E344";
+}
+.#{$icon-prefix}-thumbs-down:before {
+  content: "\E345";
+}
+.#{$icon-prefix}-hand-right:before {
+  content: "\E346";
+}
+.#{$icon-prefix}-hand-left:before {
+  content: "\E347";
+}
+.#{$icon-prefix}-hand-up:before {
+  content: "\E348";
+}
+.#{$icon-prefix}-hand-down:before {
+  content: "\E349";
+}
+.#{$icon-prefix}-fullscreen:before {
+  content: "\E350";
+}
+.#{$icon-prefix}-shopping-bag:before {
+  content: "\E351";
+}
+.#{$icon-prefix}-book-open:before {
+  content: "\E352";
+}
+.#{$icon-prefix}-nameplate:before {
+  content: "\E353";
+}
+.#{$icon-prefix}-nameplate-alt:before {
+  content: "\E354";
+}
+.#{$icon-prefix}-vases:before {
+  content: "\E355";
+}
+.#{$icon-prefix}-bullhorn:before {
+  content: "\E356";
+}
+.#{$icon-prefix}-dumbbell:before {
+  content: "\E357";
+}
+.#{$icon-prefix}-suitcase:before {
+  content: "\E358";
+}
+.#{$icon-prefix}-file-import:before {
+  content: "\E359";
+}
+.#{$icon-prefix}-file-export:before {
+  content: "\E360";
+}
+.#{$icon-prefix}-bug:before {
+  content: "\E361";
+}
+.#{$icon-prefix}-crown:before {
+  content: "\E362";
+}
+.#{$icon-prefix}-smoking:before {
+  content: "\E363";
+}
+.#{$icon-prefix}-cloud-upload:before {
+  content: "\E364";
+}
+.#{$icon-prefix}-cloud-download:before {
+  content: "\E365";
+}
+.#{$icon-prefix}-restart:before {
+  content: "\E366";
+}
+.#{$icon-prefix}-security-camera:before {
+  content: "\E367";
+}
+.#{$icon-prefix}-expand:before {
+  content: "\E368";
+}
+.#{$icon-prefix}-collapse:before {
+  content: "\E369";
+}
+.#{$icon-prefix}-collapse-top:before {
+  content: "\E370";
+}
+.#{$icon-prefix}-globe-af:before {
+  content: "\E371";
+}
+.#{$icon-prefix}-global:before {
+  content: "\E372";
+}
+.#{$icon-prefix}-spray:before {
+  content: "\E373";
+}
+.#{$icon-prefix}-nails:before {
+  content: "\E374";
+}
+.#{$icon-prefix}-claw-hammer:before {
+  content: "\E375";
+}
+.#{$icon-prefix}-classic-hammer:before {
+  content: "\E376";
+}
+.#{$icon-prefix}-hand-saw:before {
+  content: "\E377";
+}
+.#{$icon-prefix}-riflescope:before {
+  content: "\E378";
+}
+.#{$icon-prefix}-electrical-socket-eu:before {
+  content: "\E379";
+}
+.#{$icon-prefix}-electrical-socket-us:before {
+  content: "\E380";
+}
+.#{$icon-prefix}-message-forward:before {
+  content: "\E381";
+}
+.#{$icon-prefix}-coat-hanger:before {
+  content: "\E382";
+}
+.#{$icon-prefix}-dress:before {
+  content: "\E383";
+}
+.#{$icon-prefix}-bathrobe:before {
+  content: "\E384";
+}
+.#{$icon-prefix}-shirt:before {
+  content: "\E385";
+}
+.#{$icon-prefix}-underwear:before {
+  content: "\E386";
+}
+.#{$icon-prefix}-log-in:before {
+  content: "\E387";
+}
+.#{$icon-prefix}-log-out:before {
+  content: "\E388";
+}
+.#{$icon-prefix}-exit:before {
+  content: "\E389";
+}
+.#{$icon-prefix}-new-window-alt:before {
+  content: "\E390";
+}
+.#{$icon-prefix}-video-sd:before {
+  content: "\E391";
+}
+.#{$icon-prefix}-video-hd:before {
+  content: "\E392";
+}
+.#{$icon-prefix}-subtitles:before {
+  content: "\E393";
+}
+.#{$icon-prefix}-sound-stereo:before {
+  content: "\E394";
+}
+.#{$icon-prefix}-sound-dolby:before {
+  content: "\E395";
+}
+.#{$icon-prefix}-sound-5-1:before {
+  content: "\E396";
+}
+.#{$icon-prefix}-sound-6-1:before {
+  content: "\E397";
+}
+.#{$icon-prefix}-sound-7-1:before {
+  content: "\E398";
+}
+.#{$icon-prefix}-copyright-mark:before {
+  content: "\E399";
+}
+.#{$icon-prefix}-registration-mark:before {
+  content: "\E400";
+}
+.#{$icon-prefix}-radar:before {
+  content: "\E401";
+}
+.#{$icon-prefix}-skateboard:before {
+  content: "\E402";
+}
+.#{$icon-prefix}-golf-course:before {
+  content: "\E403";
+}
+.#{$icon-prefix}-sorting:before {
+  content: "\E404";
+}
+.#{$icon-prefix}-sort-by-alphabet:before {
+  content: "\E405";
+}
+.#{$icon-prefix}-sort-by-alphabet-alt:before {
+  content: "\E406";
+}
+.#{$icon-prefix}-sort-by-order:before {
+  content: "\E407";
+}
+.#{$icon-prefix}-sort-by-order-alt:before {
+  content: "\E408";
+}
+.#{$icon-prefix}-sort-by-attributes:before {
+  content: "\E409";
+}
+.#{$icon-prefix}-sort-by-attributes-alt:before {
+  content: "\E410";
+}
+.#{$icon-prefix}-compressed:before {
+  content: "\E411";
+}
+.#{$icon-prefix}-package:before {
+  content: "\E412";
+}
+.#{$icon-prefix}-cloud-plus:before {
+  content: "\E413";
+}
+.#{$icon-prefix}-cloud-minus:before {
+  content: "\E414";
+}
+.#{$icon-prefix}-disk-save:before {
+  content: "\E415";
+}
+.#{$icon-prefix}-disk-open:before {
+  content: "\E416";
+}
+.#{$icon-prefix}-disk-saved:before {
+  content: "\E417";
+}
+.#{$icon-prefix}-disk-remove:before {
+  content: "\E418";
+}
+.#{$icon-prefix}-disk-import:before {
+  content: "\E419";
+}
+.#{$icon-prefix}-disk-export:before {
+  content: "\E420";
+}
+.#{$icon-prefix}-tower:before {
+  content: "\E421";
+}
+.#{$icon-prefix}-send:before {
+  content: "\E422";
+}
+.#{$icon-prefix}-git-branch:before {
+  content: "\E423";
+}
+.#{$icon-prefix}-git-create:before {
+  content: "\E424";
+}
+.#{$icon-prefix}-git-private:before {
+  content: "\E425";
+}
+.#{$icon-prefix}-git-delete:before {
+  content: "\E426";
+}
+.#{$icon-prefix}-git-merge:before {
+  content: "\E427";
+}
+.#{$icon-prefix}-git-pull-request:before {
+  content: "\E428";
+}
+.#{$icon-prefix}-git-compare:before {
+  content: "\E429";
+}
+.#{$icon-prefix}-git-commit:before {
+  content: "\E430";
+}
+.#{$icon-prefix}-construction-cone:before {
+  content: "\E431";
+}
+.#{$icon-prefix}-shoe-steps:before {
+  content: "\E432";
+}
+.#{$icon-prefix}-plus:before {
+  content: "\E433";
+}
+.#{$icon-prefix}-minus:before {
+  content: "\E434";
+}
+.#{$icon-prefix}-redo:before {
+  content: "\E435";
+}
+.#{$icon-prefix}-undo:before {
+  content: "\E436";
+}
+.#{$icon-prefix}-golf:before {
+  content: "\E437";
+}
+.#{$icon-prefix}-hockey:before {
+  content: "\E438";
+}
+.#{$icon-prefix}-pipe:before {
+  content: "\E439";
+}
+.#{$icon-prefix}-wrench:before {
+  content: "\E440";
+}
+.#{$icon-prefix}-folder-closed:before {
+  content: "\E441";
+}
+.#{$icon-prefix}-phone-alt:before {
+  content: "\E442";
+}
+.#{$icon-prefix}-earphone:before {
+  content: "\E443";
+}
+.#{$icon-prefix}-floppy-disk:before {
+  content: "\E444";
+}
+.#{$icon-prefix}-floppy-saved:before {
+  content: "\E445";
+}
+.#{$icon-prefix}-floppy-remove:before {
+  content: "\E446";
+}
+.#{$icon-prefix}-floppy-save:before {
+  content: "\E447";
+}
+.#{$icon-prefix}-floppy-open:before {
+  content: "\E448";
+}
+.#{$icon-prefix}-translate:before {
+  content: "\E449";
+}
+.#{$icon-prefix}-fax:before {
+  content: "\E450";
+}
+.#{$icon-prefix}-factory:before {
+  content: "\E451";
+}
+.#{$icon-prefix}-shop-window:before {
+  content: "\E452";
+}
+.#{$icon-prefix}-shop:before {
+  content: "\E453";
+}
+.#{$icon-prefix}-kiosk:before {
+  content: "\E454";
+}
+.#{$icon-prefix}-kiosk-wheels:before {
+  content: "\E455";
+}
+.#{$icon-prefix}-kiosk-light:before {
+  content: "\E456";
+}
+.#{$icon-prefix}-kiosk-food:before {
+  content: "\E457";
+}
+.#{$icon-prefix}-transfer:before {
+  content: "\E458";
+}
+.#{$icon-prefix}-money:before {
+  content: "\E459";
+}
+.#{$icon-prefix}-header:before {
+  content: "\E460";
+}
+.#{$icon-prefix}-blacksmith:before {
+  content: "\E461";
+}
+.#{$icon-prefix}-saw-blade:before {
+  content: "\E462";
+}
+.#{$icon-prefix}-basketball:before {
+  content: "\E463";
+}
+.#{$icon-prefix}-server:before {
+  content: "\E464";
+}
+.#{$icon-prefix}-server-plus:before {
+  content: "\E465";
+}
+.#{$icon-prefix}-server-minus:before {
+  content: "\E466";
+}
+.#{$icon-prefix}-server-ban:before {
+  content: "\E467";
+}
+.#{$icon-prefix}-server-flag:before {
+  content: "\E468";
+}
+.#{$icon-prefix}-server-lock:before {
+  content: "\E469";
+}
+.#{$icon-prefix}-server-new:before {
+  content: "\E470";
+}
+.#{$icon-prefix}-charging-station:before {
+  content: "\E471";
+}
+.#{$icon-prefix}-gas-station:before {
+  content: "\E472";
+}
+.#{$icon-prefix}-target:before {
+  content: "\E473";
+}
+.#{$icon-prefix}-bed:before {
+  content: "\E474";
+}
+.#{$icon-prefix}-mosquito:before {
+  content: "\E475";
+}
+.#{$icon-prefix}-dining-set:before {
+  content: "\E476";
+}
+.#{$icon-prefix}-plate-of-food:before {
+  content: "\E477";
+}
+.#{$icon-prefix}-hygiene-kit:before {
+  content: "\E478";
+}
+.#{$icon-prefix}-blackboard:before {
+  content: "\E479";
+}
+.#{$icon-prefix}-marriage:before {
+  content: "\E480";
+}
+.#{$icon-prefix}-bucket:before {
+  content: "\E481";
+}
+.#{$icon-prefix}-none-color-swatch:before {
+  content: "\E482";
+}
+.#{$icon-prefix}-bring-forward:before {
+  content: "\E483";
+}
+.#{$icon-prefix}-bring-to-front:before {
+  content: "\E484";
+}
+.#{$icon-prefix}-send-backward:before {
+  content: "\E485";
+}
+.#{$icon-prefix}-send-to-back:before {
+  content: "\E486";
+}
+.#{$icon-prefix}-fit-frame-to-image:before {
+  content: "\E487";
+}
+.#{$icon-prefix}-fit-image-to-frame:before {
+  content: "\E488";
+}
+.#{$icon-prefix}-multiple-displays:before {
+  content: "\E489";
+}
+.#{$icon-prefix}-handshake:before {
+  content: "\E490";
+}
+.#{$icon-prefix}-child:before {
+  content: "\E491";
+}
+.#{$icon-prefix}-baby-formula:before {
+  content: "\E492";
+}
+.#{$icon-prefix}-medicine:before {
+  content: "\E493";
+}
+.#{$icon-prefix}-atv-vehicle:before {
+  content: "\E494";
+}
+.#{$icon-prefix}-motorcycle:before {
+  content: "\E495";
+}
+.#{$icon-prefix}-bed-alt:before {
+  content: "\E496";
+}
+.#{$icon-prefix}-tent:before {
+  content: "\E497";
+}
+.#{$icon-prefix}-glasses:before {
+  content: "\E498";
+}
+.#{$icon-prefix}-sunglasses:before {
+  content: "\E499";
+}
+.#{$icon-prefix}-family:before {
+  content: "\E500";
+}
+.#{$icon-prefix}-education:before {
+  content: "\E501";
+}
+.#{$icon-prefix}-shoes:before {
+  content: "\E502";
+}
+.#{$icon-prefix}-map:before {
+  content: "\E503";
+}
+.#{$icon-prefix}-cd:before {
+  content: "\E504";
+}
+.#{$icon-prefix}-alert:before {
+  content: "\E505";
+}
+.#{$icon-prefix}-piggy-bank:before {
+  content: "\E506";
+}
+.#{$icon-prefix}-star-half:before {
+  content: "\E507";
+}
+.#{$icon-prefix}-cluster:before {
+  content: "\E508";
+}
+.#{$icon-prefix}-flowchart:before {
+  content: "\E509";
+}
+.#{$icon-prefix}-commodities:before {
+  content: "\E510";
+}
+.#{$icon-prefix}-duplicate:before {
+  content: "\E511";
+}
+.#{$icon-prefix}-copy:before {
+  content: "\E512";
+}
+.#{$icon-prefix}-paste:before {
+  content: "\E513";
+}
+.#{$icon-prefix}-bath-bathtub:before {
+  content: "\E514";
+}
+.#{$icon-prefix}-bath-shower:before {
+  content: "\E515";
+}
+.#{$icon-prefix}-shower:before {
+  content: "\E516";
+}
+.#{$icon-prefix}-menu-hamburger:before {
+  content: "\E517";
+}
+.#{$icon-prefix}-option-vertical:before {
+  content: "\E518";
+}
+.#{$icon-prefix}-option-horizontal:before {
+  content: "\E519";
+}
+.#{$icon-prefix}-currency-conversion:before {
+  content: "\E520";
+}
+.#{$icon-prefix}-user-ban:before {
+  content: "\E521";
+}
+.#{$icon-prefix}-user-lock:before {
+  content: "\E522";
+}
+.#{$icon-prefix}-user-flag:before {
+  content: "\E523";
+}
+.#{$icon-prefix}-user-asterisk:before {
+  content: "\E524";
+}
+.#{$icon-prefix}-user-alert:before {
+  content: "\E525";
+}
+.#{$icon-prefix}-user-key:before {
+  content: "\E526";
+}
+.#{$icon-prefix}-user-conversation:before {
+  content: "\E527";
+}
+.#{$icon-prefix}-database:before {
+  content: "\E528";
+}
+.#{$icon-prefix}-database-search:before {
+  content: "\E529";
+}
+.#{$icon-prefix}-list-alt:before {
+  content: "\E530";
+}
+.#{$icon-prefix}-hazard-sign:before {
+  content: "\E531";
+}
+.#{$icon-prefix}-hazard:before {
+  content: "\E532";
+}
+.#{$icon-prefix}-stop-sign:before {
+  content: "\E533";
+}
+.#{$icon-prefix}-lab:before {
+  content: "\E534";
+}
+.#{$icon-prefix}-lab-alt:before {
+  content: "\E535";
+}
+.#{$icon-prefix}-ice-cream:before {
+  content: "\E536";
+}
+.#{$icon-prefix}-ice-lolly:before {
+  content: "\E537";
+}
+.#{$icon-prefix}-ice-lolly-tasted:before {
+  content: "\E538";
+}
+.#{$icon-prefix}-invoice:before {
+  content: "\E539";
+}
+.#{$icon-prefix}-cart-tick:before {
+  content: "\E540";
+}
+.#{$icon-prefix}-hourglass:before {
+  content: "\E541";
+}
+.#{$icon-prefix}-cat:before {
+  content: "\E542";
+}
+.#{$icon-prefix}-lamp:before {
+  content: "\E543";
+}
+.#{$icon-prefix}-scale-classic:before {
+  content: "\E544";
+}
+.#{$icon-prefix}-eye-plus:before {
+  content: "\E545";
+}
+.#{$icon-prefix}-eye-minus:before {
+  content: "\E546";
+}
+.#{$icon-prefix}-quote:before {
+  content: "\E547";
+}
+.#{$icon-prefix}-bitcoin:before {
+  content: "\E548";
+}
+.#{$icon-prefix}-yen:before {
+  content: "\E549";
+}
+.#{$icon-prefix}-ruble:before {
+  content: "\E550";
+}
+.#{$icon-prefix}-erase:before {
+  content: "\E551";
+}
+.#{$icon-prefix}-podcast:before {
+  content: "\E552";
+}
+.#{$icon-prefix}-firework:before {
+  content: "\E553";
+}
+.#{$icon-prefix}-scale:before {
+  content: "\E554";
+}
+.#{$icon-prefix}-king:before {
+  content: "\E555";
+}
+.#{$icon-prefix}-queen:before {
+  content: "\E556";
+}
+.#{$icon-prefix}-pawn:before {
+  content: "\E557";
+}
+.#{$icon-prefix}-bishop:before {
+  content: "\E558";
+}
+.#{$icon-prefix}-knight:before {
+  content: "\E559";
+}
+.#{$icon-prefix}-mic-mute:before {
+  content: "\E560";
+}
+.#{$icon-prefix}-voicemail:before {
+  content: "\E561";
+}
+.#{$icon-prefix}-paragraph-alt:before {
+  content: "\E562";
+}
+.#{$icon-prefix}-person-walking:before {
+  content: "\E563";
+}
+.#{$icon-prefix}-person-wheelchair:before {
+  content: "\E564";
+}
+.#{$icon-prefix}-underground:before {
+  content: "\E565";
+}
+.#{$icon-prefix}-car-hov:before {
+  content: "\E566";
+}
+.#{$icon-prefix}-car-rental:before {
+  content: "\E567";
+}
+.#{$icon-prefix}-transport:before {
+  content: "\E568";
+}
+.#{$icon-prefix}-taxi:before {
+  content: "\E569";
+}
+.#{$icon-prefix}-ice-cream-no:before {
+  content: "\E570";
+}
+.#{$icon-prefix}-uk-rat-u:before {
+  content: "\E571";
+}
+.#{$icon-prefix}-uk-rat-pg:before {
+  content: "\E572";
+}
+.#{$icon-prefix}-uk-rat-12a:before {
+  content: "\E573";
+}
+.#{$icon-prefix}-uk-rat-12:before {
+  content: "\E574";
+}
+.#{$icon-prefix}-uk-rat-15:before {
+  content: "\E575";
+}
+.#{$icon-prefix}-uk-rat-18:before {
+  content: "\E576";
+}
+.#{$icon-prefix}-uk-rat-r18:before {
+  content: "\E577";
+}
+.#{$icon-prefix}-tv:before {
+  content: "\E578";
+}
+.#{$icon-prefix}-sms:before {
+  content: "\E579";
+}
+.#{$icon-prefix}-mms:before {
+  content: "\E580";
+}
+.#{$icon-prefix}-us-rat-g:before {
+  content: "\E581";
+}
+.#{$icon-prefix}-us-rat-pg:before {
+  content: "\E582";
+}
+.#{$icon-prefix}-us-rat-pg-13:before {
+  content: "\E583";
+}
+.#{$icon-prefix}-us-rat-restricted:before {
+  content: "\E584";
+}
+.#{$icon-prefix}-us-rat-no-one-17:before {
+  content: "\E585";
+}
+.#{$icon-prefix}-equalizer:before {
+  content: "\E586";
+}
+.#{$icon-prefix}-speakers:before {
+  content: "\E587";
+}
+.#{$icon-prefix}-remote-control:before {
+  content: "\E588";
+}
+.#{$icon-prefix}-remote-control-tv:before {
+  content: "\E589";
+}
+.#{$icon-prefix}-shredder:before {
+  content: "\E590";
+}
+.#{$icon-prefix}-folder-heart:before {
+  content: "\E591";
+}
+.#{$icon-prefix}-person-running:before {
+  content: "\E592";
+}
+.#{$icon-prefix}-person:before {
+  content: "\E593";
+}
+.#{$icon-prefix}-voice:before {
+  content: "\E594";
+}
+.#{$icon-prefix}-stethoscope:before {
+  content: "\E595";
+}
+.#{$icon-prefix}-paired:before {
+  content: "\E596";
+}
+.#{$icon-prefix}-activity:before {
+  content: "\E597";
+}
+.#{$icon-prefix}-watch:before {
+  content: "\E598";
+}
+.#{$icon-prefix}-scissors-alt:before {
+  content: "\E599";
+}
+.#{$icon-prefix}-car-wheel:before {
+  content: "\E600";
+}
+.#{$icon-prefix}-chevron-up:before {
+  content: "\E601";
+}
+.#{$icon-prefix}-chevron-down:before {
+  content: "\E602";
+}
+.#{$icon-prefix}-superscript:before {
+  content: "\E603";
+}
+.#{$icon-prefix}-subscript:before {
+  content: "\E604";
+}
+.#{$icon-prefix}-text-size:before {
+  content: "\E605";
+}
+.#{$icon-prefix}-text-color:before {
+  content: "\E606";
+}
+.#{$icon-prefix}-text-background:before {
+  content: "\E607";
+}
+.#{$icon-prefix}-modal-window:before {
+  content: "\E608";
+}
+.#{$icon-prefix}-newspaper:before {
+  content: "\E609";
+}
+.#{$icon-prefix}-tractor:before {
+  content: "\E610";
+}
+.#{$icon-prefix}-camping:before {
+  content: "\E611";
+}
+.#{$icon-prefix}-camping-benches:before {
+  content: "\E612";
+}
+.#{$icon-prefix}-forest:before {
+  content: "\E613";
+}
+.#{$icon-prefix}-park:before {
+  content: "\E614";
+}
+.#{$icon-prefix}-field:before {
+  content: "\E615";
+}
+.#{$icon-prefix}-mountains:before {
+  content: "\E616";
+}
+.#{$icon-prefix}-fees-payments:before {
+  content: "\E617";
+}
+.#{$icon-prefix}-small-payments:before {
+  content: "\E618";
+}
+.#{$icon-prefix}-mixed-buildings:before {
+  content: "\E619";
+}
+.#{$icon-prefix}-industrial-zone:before {
+  content: "\E620";
+}
+.#{$icon-prefix}-visitor-tag:before {
+  content: "\E621";
+}
+.#{$icon-prefix}-businessman:before {
+  content: "\E622";
+}
+.#{$icon-prefix}-meditation:before {
+  content: "\E623";
+}
+.#{$icon-prefix}-bath:before {
+  content: "\E624";
+}
+.#{$icon-prefix}-donate:before {
+  content: "\E625";
+}
+.#{$icon-prefix}-sauna:before {
+  content: "\E626";
+}
+.#{$icon-prefix}-bedroom-nightstand:before {
+  content: "\E627";
+}
+.#{$icon-prefix}-bedroom-lamp:before {
+  content: "\E628";
+}
+.#{$icon-prefix}-doctor:before {
+  content: "\E629";
+}
+.#{$icon-prefix}-engineering-networks:before {
+  content: "\E630";
+}
+.#{$icon-prefix}-washing-machine:before {
+  content: "\E631";
+}
+.#{$icon-prefix}-dryer:before {
+  content: "\E632";
+}
+.#{$icon-prefix}-dishwasher:before {
+  content: "\E633";
+}
+.#{$icon-prefix}-luggage-group:before {
+  content: "\E634";
+}
+.#{$icon-prefix}-teenager:before {
+  content: "\E635";
+}
+.#{$icon-prefix}-person-stick:before {
+  content: "\E636";
+}
+.#{$icon-prefix}-person-stick-old:before {
+  content: "\E637";
+}
+.#{$icon-prefix}-traveler:before {
+  content: "\E638";
+}
+.#{$icon-prefix}-veteran:before {
+  content: "\E639";
+}
+.#{$icon-prefix}-group-chat:before {
+  content: "\E640";
+}
+.#{$icon-prefix}-elections:before {
+  content: "\E641";
+}
+.#{$icon-prefix}-law-justice:before {
+  content: "\E642";
+}
+.#{$icon-prefix}-judiciary:before {
+  content: "\E643";
+}
+.#{$icon-prefix}-house-fire:before {
+  content: "\E644";
+}
+.#{$icon-prefix}-firefighters:before {
+  content: "\E645";
+}
+.#{$icon-prefix}-police:before {
+  content: "\E646";
+}
+.#{$icon-prefix}-ambulance:before {
+  content: "\E647";
+}
+.#{$icon-prefix}-light-beacon:before {
+  content: "\E648";
+}
+.#{$icon-prefix}-important-day:before {
+  content: "\E649";
+}
+.#{$icon-prefix}-bike-park:before {
+  content: "\E650";
+}
+.#{$icon-prefix}-object-align-top:before {
+  content: "\E651";
+}
+.#{$icon-prefix}-object-align-bottom:before {
+  content: "\E652";
+}
+.#{$icon-prefix}-object-align-horizontal:before {
+  content: "\E653";
+}
+.#{$icon-prefix}-object-align-left:before {
+  content: "\E654";
+}
+.#{$icon-prefix}-object-align-vertical:before {
+  content: "\E655";
+}
+.#{$icon-prefix}-object-align-right:before {
+  content: "\E656";
+}
+.#{$icon-prefix}-reflect-y:before {
+  content: "\E657";
+}
+.#{$icon-prefix}-reflect-x:before {
+  content: "\E658";
+}
+.#{$icon-prefix}-tick:before {
+  content: "\E659";
+}
+.#{$icon-prefix}-lawnmower:before {
+  content: "\E660";
+}
+.#{$icon-prefix}-call-redirect:before {
+  content: "\E661";
+}
+.#{$icon-prefix}-call-ip:before {
+  content: "\E662";
+}
+.#{$icon-prefix}-call-record:before {
+  content: "\E663";
+}
+.#{$icon-prefix}-call-ringtone:before {
+  content: "\E664";
+}
+.#{$icon-prefix}-call-traffic:before {
+  content: "\E665";
+}
+.#{$icon-prefix}-call-hold:before {
+  content: "\E666";
+}
+.#{$icon-prefix}-call-incoming:before {
+  content: "\E667";
+}
+.#{$icon-prefix}-call-outgoing:before {
+  content: "\E668";
+}
+.#{$icon-prefix}-call-video:before {
+  content: "\E669";
+}
+.#{$icon-prefix}-call-missed:before {
+  content: "\E670";
+}
+.#{$icon-prefix}-theater:before {
+  content: "\E671";
+}
+.#{$icon-prefix}-heartbeat:before {
+  content: "\E672";
+}
+.#{$icon-prefix}-kettlebell:before {
+  content: "\E673";
+}
+.#{$icon-prefix}-fireplace:before {
+  content: "\E674";
+}
+.#{$icon-prefix}-street-lights:before {
+  content: "\E675";
+}
+.#{$icon-prefix}-pedestrian:before {
+  content: "\E676";
+}
+.#{$icon-prefix}-flood:before {
+  content: "\E677";
+}
+.#{$icon-prefix}-open-water:before {
+  content: "\E678";
+}
+.#{$icon-prefix}-for-sale:before {
+  content: "\E679";
+}
+.#{$icon-prefix}-dustbin:before {
+  content: "\E680";
+}
+.#{$icon-prefix}-door:before {
+  content: "\E681";
+}
+.#{$icon-prefix}-camp-fire:before {
+  content: "\E682";
+}
+.#{$icon-prefix}-fleur-de-lis:before {
+  content: "\E683";
+}
+.#{$icon-prefix}-temperature-settings:before {
+  content: "\E684";
+}
+.#{$icon-prefix}-article:before {
+  content: "\E685";
+}
+.#{$icon-prefix}-sunbath:before {
+  content: "\E686";
+}
+.#{$icon-prefix}-balanced-diet:before {
+  content: "\E687";
+}
+.#{$icon-prefix}-ticket:before {
+  content: "\E688";
+}
+.#{$icon-prefix}-parking-ticket:before {
+  content: "\E689";
+}
+.#{$icon-prefix}-parking-meter:before {
+  content: "\E690";
+}
+.#{$icon-prefix}-laptop:before {
+  content: "\E691";
+}
+.#{$icon-prefix}-tree-structure:before {
+  content: "\E692";
+}
+.#{$icon-prefix}-weather-warning:before {
+  content: "\E693";
+}
+.#{$icon-prefix}-temperature-low:before {
+  content: "\E694";
+}
+.#{$icon-prefix}-temperature-high:before {
+  content: "\E695";
+}
+.#{$icon-prefix}-temperature-low-warning:before {
+  content: "\E696";
+}
+.#{$icon-prefix}-temperature-high-warning:before {
+  content: "\E697";
+}
+.#{$icon-prefix}-hurricane:before {
+  content: "\E698";
+}
+.#{$icon-prefix}-storm:before {
+  content: "\E699";
+}
+.#{$icon-prefix}-sorted-waste:before {
+  content: "\E700";
+}
+.#{$icon-prefix}-ear:before {
+  content: "\E701";
+}
+.#{$icon-prefix}-ear-deaf:before {
+  content: "\E702";
+}
+.#{$icon-prefix}-file-plus:before {
+  content: "\E703";
+}
+.#{$icon-prefix}-file-minus:before {
+  content: "\E704";
+}
+.#{$icon-prefix}-file-lock:before {
+  content: "\E705";
+}
+.#{$icon-prefix}-file-cloud:before {
+  content: "\E706";
+}
+.#{$icon-prefix}-file-cloud-download:before {
+  content: "\E707";
+}
+.#{$icon-prefix}-file-cloud-upload:before {
+  content: "\E708";
+}
+.#{$icon-prefix}-paragraph:before {
+  content: "\E709";
+}
+.#{$icon-prefix}-list-numbered:before {
+  content: "\E710";
+}
+.#{$icon-prefix}-donate-heart:before {
+  content: "\E711";
+}
+.#{$icon-prefix}-government:before {
+  content: "\E712";
+}
+.#{$icon-prefix}-maze:before {
+  content: "\E713";
+}
+.#{$icon-prefix}-chronicle:before {
+  content: "\E714";
+}
+.#{$icon-prefix}-user-structure:before {
+  content: "\E715";
+}
+.#{$icon-prefix}-recycle:before {
+  content: "\E716";
+}
+.#{$icon-prefix}-gas:before {
+  content: "\E717";
+}
+.#{$icon-prefix}-waste-pipe:before {
+  content: "\E718";
+}
+.#{$icon-prefix}-water-pipe:before {
+  content: "\E719";
+}
+.#{$icon-prefix}-parking:before {
+  content: "\E720";
+}
+.#{$icon-prefix}-closed:before {
+  content: "\E721";
+}
+.#{$icon-prefix}-mouse:before {
+  content: "\E722";
+}
+.#{$icon-prefix}-mouse-double-click:before {
+  content: "\E723";
+}
+.#{$icon-prefix}-mouse-left-click:before {
+  content: "\E724";
+}
+.#{$icon-prefix}-mouse-right-click:before {
+  content: "\E725";
+}
+.#{$icon-prefix}-mouse-middle-click:before {
+  content: "\E726";
+}
+.#{$icon-prefix}-mouse-scroll:before {
+  content: "\E727";
+}
+.#{$icon-prefix}-resize-vertical:before {
+  content: "\E728";
+}
+.#{$icon-prefix}-resize-horizontal:before {
+  content: "\E729";
+}
+.#{$icon-prefix}-temperature:before {
+  content: "\E730";
+}
+.#{$icon-prefix}-puzzle:before {
+  content: "\E731";
+}
+.#{$icon-prefix}-puzzle-2:before {
+  content: "\E732";
+}
+.#{$icon-prefix}-puzzle-3:before {
+  content: "\E733";
+}
+.#{$icon-prefix}-nearby-square:before {
+  content: "\E734";
+}
+.#{$icon-prefix}-nearby-circle:before {
+  content: "\E735";
+}
+.#{$icon-prefix}-rotate-right:before {
+  content: "\E736";
+}
+.#{$icon-prefix}-rotate-left:before {
+  content: "\E737";
+}
+.#{$icon-prefix}-pictures:before {
+  content: "\E738";
+}
+.#{$icon-prefix}-photo-album:before {
+  content: "\E739";
+}
+.#{$icon-prefix}-cadastral-map:before {
+  content: "\E740";
+}
+.#{$icon-prefix}-fingerprint-scan:before {
+  content: "\E741";
+}
+.#{$icon-prefix}-fingerprint:before {
+  content: "\E742";
+}
+.#{$icon-prefix}-fingerprint-lock:before {
+  content: "\E743";
+}
+.#{$icon-prefix}-fingerprint-ok:before {
+  content: "\E744";
+}
+.#{$icon-prefix}-fingerprint-remove:before {
+  content: "\E745";
+}
+.#{$icon-prefix}-fingerprint-reload:before {
+  content: "\E746";
+}
+.#{$icon-prefix}-pending-notifications:before {
+  content: "\E747";
+}
+.#{$icon-prefix}-synchronization:before {
+  content: "\E748";
+}
+.#{$icon-prefix}-synchronization-ban:before {
+  content: "\E749";
+}
+.#{$icon-prefix}-hash:before {
+  content: "\E750";
+}
+.#{$icon-prefix}-gender-male:before {
+  content: "\E751";
+}
+.#{$icon-prefix}-gender-female:before {
+  content: "\E752";
+}
+.#{$icon-prefix}-gender-virgin-female:before {
+  content: "\E753";
+}
+.#{$icon-prefix}-gender-intersex:before {
+  content: "\E754";
+}
+.#{$icon-prefix}-gender-transgender:before {
+  content: "\E755";
+}
+.#{$icon-prefix}-gender-ori-lesbian:before {
+  content: "\E756";
+}
+.#{$icon-prefix}-gender-ori-gay:before {
+  content: "\E757";
+}
+.#{$icon-prefix}-gender-ori-hetero:before {
+  content: "\E758";
+}
+.#{$icon-prefix}-gender-other:before {
+  content: "\E759";
+}
+.#{$icon-prefix}-gender-unknown:before {
+  content: "\E760";
+}
+.#{$icon-prefix}-scanner:before {
+  content: "\E761";
+}
+.#{$icon-prefix}-multifunction-printer:before {
+  content: "\E762";
+}
+.#{$icon-prefix}-lasso:before {
+  content: "\E763";
+}
+.#{$icon-prefix}-view-360:before {
+  content: "\E764";
+}
+.#{$icon-prefix}-battery-charging:before {
+  content: "\E765";
+}
+.#{$icon-prefix}-battery-full:before {
+  content: "\E766";
+}
+.#{$icon-prefix}-battery-75:before {
+  content: "\E767";
+}
+.#{$icon-prefix}-battery-50:before {
+  content: "\E768";
+}
+.#{$icon-prefix}-battery-25:before {
+  content: "\E769";
+}
+.#{$icon-prefix}-battery-10:before {
+  content: "\E770";
+}
+.#{$icon-prefix}-satellite:before {
+  content: "\E771";
+}
+.#{$icon-prefix}-satellite-dish:before {
+  content: "\E772";
+}
+.#{$icon-prefix}-satellite-dish-alt:before {
+  content: "\E773";
+}
+.#{$icon-prefix}-auction:before {
+  content: "\E774";
+}
+.#{$icon-prefix}-directions:before {
+  content: "\E775";
+}
+.#{$icon-prefix}-race:before {
+  content: "\E776";
+}
+.#{$icon-prefix}-robot:before {
+  content: "\E777";
+}
+.#{$icon-prefix}-ruler-alt:before {
+  content: "\E778";
+}
+.#{$icon-prefix}-cube-empty:before {
+  content: "\E779";
+}
+.#{$icon-prefix}-cube-black:before {
+  content: "\E780";
+}
+.#{$icon-prefix}-move-square:before {
+  content: "\E781";
+}
+.#{$icon-prefix}-drop:before {
+  content: "\E782";
+}
+.#{$icon-prefix}-vr-headset:before {
+  content: "\E783";
+}
+.#{$icon-prefix}-vr-charging:before {
+  content: "\E784";
+}
+.#{$icon-prefix}-vr-low-battery:before {
+  content: "\E785";
+}
+.#{$icon-prefix}-vr-paired:before {
+  content: "\E786";
+}
+.#{$icon-prefix}-vr-settings:before {
+  content: "\E787";
+}
+.#{$icon-prefix}-vr-maintenance:before {
+  content: "\E788";
+}
+.#{$icon-prefix}-filter-remove:before {
+  content: "\E789";
+}
+.#{$icon-prefix}-filter-applied:before {
+  content: "\E790";
+}
+.#{$icon-prefix}-one-day:before {
+  content: "\E791";
+}
+.#{$icon-prefix}-user-vr:before {
+  content: "\E792";
+}
+.#{$icon-prefix}-user-vr-add:before {
+  content: "\E793";
+}
+.#{$icon-prefix}-user-vr-remove:before {
+  content: "\E794";
+}
+.#{$icon-prefix}-dice-1:before {
+  content: "\E795";
+}
+.#{$icon-prefix}-dice-2:before {
+  content: "\E796";
+}
+.#{$icon-prefix}-dice-3:before {
+  content: "\E797";
+}
+.#{$icon-prefix}-dice-4:before {
+  content: "\E798";
+}
+.#{$icon-prefix}-dice-5:before {
+  content: "\E799";
+}
+.#{$icon-prefix}-dice-6:before {
+  content: "\E800";
+}
