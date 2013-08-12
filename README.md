@@ -7,7 +7,7 @@ Example of usage:
 
     <i class="glyphicon-girl glyphicon-spin"></i>
 
-Using SASS in your project you can easily prefixed icons to avoid collision with other icon sets.
+Using SASS in your project you can easily prefix icons to avoid collision with other icon sets.
 
     $icon-prefix: myglyphicon
     
