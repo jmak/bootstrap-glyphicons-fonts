@@ -1,7 +1,7 @@
 # GLYPHICONS PRO 1.8 font
 ### 470 font icons - (24.7.2013)
 
-Alternative SASS/CSS for GLYPHICONS PRO icons font.
+Alternative SASS/CSS for GLYPHICONS PRO 1.8 font.
 
 Example of usage:
 
