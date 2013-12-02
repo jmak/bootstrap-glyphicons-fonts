@@ -1,0 +1,160 @@
+/* GLYPHICONS SOCIAL 1.8 */
+
+@font-face
+  font-family: "Glyphicons Social"
+  src: url('/fonts/glyphicons/glyphicons-social-regular.eot')
+  src: url('/fonts/glyphicons/glyphicons-social-regular.eot?#iefix') format('embedded-opentype'), url('/fonts/glyphicons/glyphicons-social-regular.woff') format('woff'), url('/fonts/glyphicons/glyphicons-social-regular.ttf') format('truetype'), url('/fonts/glyphicons/glyphicons-social-regular.svg#glyphicons_socialregular') format('svg')
+
+// Use compass mixin instead above font-face declaration to ensure that font files path is always proper
+// @import 'compass'
+// +font-face("Glyphicons Social", font-files("glyphicons/glyphicons-social-regular.woff", woff, "glyphicons/glyphicons-social-regular.ttf", truetype, "glyphicons/glyphicons-social-regular.svg#glyphicons_socialregular", svg), "glyphicons/glyphicons-social-regular.eot")
+
+// if you use several icon sets in project you will be able to use prefixed class to avoid collision with other icon sets.
+
+// eg. <i class="social-text social-spin></i>
+
+
+$icon-prefix: social
+
+[class*="#{$icon-prefix}-"]
+  display: inline-block
+  vertical-align: middle
+  font:
+    family: "Glyphicons Social"
+    style: normal
+    weight: normal
+    size: 1em
+
+.#{$icon-prefix}-spin
+  -moz-animation: #{$icon-prefix}-spin 2s infinite linear
+  -o-animation: #{$icon-prefix}-spin 2s infinite linear
+  -webkit-animation: #{$icon-prefix}-spin 2s infinite linear
+  animation: #{$icon-prefix}-spin 2s infinite linear
+
+@-moz-keyframes #{$icon-prefix}-spin
+  0%
+    -moz-transform: rotate(0deg)
+  100%
+    -moz-transform: rotate(359deg)
+@-webkit-keyframes #{$icon-prefix}-spin
+  0%
+    -webkit-transform: rotate(0deg)
+  100%
+    -webkit-transform: rotate(359deg)
+@-o-keyframes #{$icon-prefix}-spin
+  0%
+    -o-transform: rotate(0deg)
+  100%
+    -o-transform: rotate(359deg)
+@-ms-keyframes #{$icon-prefix}-spin
+  0%
+    -ms-transform: rotate(0deg)
+  100%
+    -ms-transform: rotate(359deg)
+@keyframes #{$icon-prefix}-spin
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(359deg)
+
+
+.#{$icon-prefix}-pinterest:before
+  content: "\E001"
+.#{$icon-prefix}-dropbox:before
+  content: "\E002"
+.#{$icon-prefix}-google_plus:before
+  content: "\E003"
+.#{$icon-prefix}-jolicloud:before
+  content: "\E004"
+.#{$icon-prefix}-yahoo:before
+  content: "\E005"
+.#{$icon-prefix}-blogger:before
+  content: "\E006"
+.#{$icon-prefix}-picasa:before
+  content: "\E007"
+.#{$icon-prefix}-amazon:before
+  content: "\E008"
+.#{$icon-prefix}-tumblr:before
+  content: "\E009"
+.#{$icon-prefix}-wordpress:before
+  content: "\E010"
+.#{$icon-prefix}-instapaper:before
+  content: "\E011"
+.#{$icon-prefix}-evernote:before
+  content: "\E012"
+.#{$icon-prefix}-xing:before
+  content: "\E013"
+.#{$icon-prefix}-zootool:before
+  content: "\E014"
+.#{$icon-prefix}-dribbble:before
+  content: "\E015"
+.#{$icon-prefix}-deviantart:before
+  content: "\E016"
+.#{$icon-prefix}-read_it_later:before
+  content: "\E017"
+.#{$icon-prefix}-linked_in:before
+  content: "\E018"
+.#{$icon-prefix}-forrst:before
+  content: "\E019"
+.#{$icon-prefix}-pinboard:before
+  content: "\E020"
+.#{$icon-prefix}-behance:before
+  content: "\E021"
+.#{$icon-prefix}-github:before
+  content: "\E022"
+.#{$icon-prefix}-youtube:before
+  content: "\E023"
+.#{$icon-prefix}-skitch:before
+  content: "\E024"
+.#{$icon-prefix}-foursquare:before
+  content: "\E025"
+.#{$icon-prefix}-quora:before
+  content: "\E026"
+.#{$icon-prefix}-badoo:before
+  content: "\E027"
+.#{$icon-prefix}-spotify:before
+  content: "\E028"
+.#{$icon-prefix}-stumbleupon:before
+  content: "\E029"
+.#{$icon-prefix}-readability:before
+  content: "\E030"
+.#{$icon-prefix}-facebook:before
+  content: "\E031"
+.#{$icon-prefix}-twitter:before
+  content: "\E032"
+.#{$icon-prefix}-instagram:before
+  content: "\E033"
+.#{$icon-prefix}-posterous_spaces:before
+  content: "\E034"
+.#{$icon-prefix}-vimeo:before
+  content: "\E035"
+.#{$icon-prefix}-flickr:before
+  content: "\E036"
+.#{$icon-prefix}-last_fm:before
+  content: "\E037"
+.#{$icon-prefix}-rss:before
+  content: "\E038"
+.#{$icon-prefix}-skype:before
+  content: "\E039"
+.#{$icon-prefix}-e-mail:before
+  content: "\E040"
+.#{$icon-prefix}-vine:before
+  content: "\E041"
+.#{$icon-prefix}-myspace:before
+  content: "\E042"
+.#{$icon-prefix}-goodreads:before
+  content: "\E043"
+.#{$icon-prefix}-apple:before
+  content: "\F8FF"
+.#{$icon-prefix}-windows:before
+  content: "\E045"
+.#{$icon-prefix}-yelp:before
+  content: "\E046"
+.#{$icon-prefix}-playstation:before
+  content: "\E047"
+.#{$icon-prefix}-xbox:before
+  content: "\E048"
+.#{$icon-prefix}-android:before
+  content: "\E049"
+.#{$icon-prefix}-ios:before
+  content: "\E050"

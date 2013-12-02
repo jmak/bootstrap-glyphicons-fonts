@@ -1,0 +1,281 @@
+/* GLYPHICONS FILETYPES 1.8 */
+@font-face { font-family: "Glyphicons Filetypes"; src: url("/fonts/glyphicons/glyphicons-filetypes-regular.eot"); src: url("/fonts/glyphicons/glyphicons-filetypes-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/glyphicons/glyphicons-filetypes-regular.woff") format("woff"), url("/fonts/glyphicons/glyphicons-filetypes-regular.ttf") format("truetype"), url("/fonts/glyphicons/glyphicons-filetypes-regular.svg#glyphicons_filetypesregular") format("svg"); }
+
+[class*="filetype-"] { display: inline-block; vertical-align: middle; font-family: "Glyphicons Filetypes"; font-style: normal; font-weight: normal; font-size: 1em; }
+
+.filetype-spin { -moz-animation: filetype-spin 2s infinite linear; -o-animation: filetype-spin 2s infinite linear; -webkit-animation: filetype-spin 2s infinite linear; animation: filetype-spin 2s infinite linear; }
+
+@-moz-keyframes filetype-spin { 0% { -moz-transform: rotate(0deg); }
+  100% { -moz-transform: rotate(359deg); } }
+
+@-webkit-keyframes filetype-spin { 0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(359deg); } }
+
+@-o-keyframes filetype-spin { 0% { -o-transform: rotate(0deg); }
+  100% { -o-transform: rotate(359deg); } }
+
+@-ms-keyframes filetype-spin { 0% { -ms-transform: rotate(0deg); }
+  100% { -ms-transform: rotate(359deg); } }
+
+@keyframes filetype-spin { 0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); } }
+
+.filetype-txt:before { content: "\E001"; }
+
+.filetype-doc:before { content: "\E002"; }
+
+.filetype-rtf:before { content: "\E003"; }
+
+.filetype-log:before { content: "\E004"; }
+
+.filetype-tex:before { content: "\E005"; }
+
+.filetype-msg:before { content: "\E006"; }
+
+.filetype-text:before { content: "\E007"; }
+
+.filetype-wpd:before { content: "\E008"; }
+
+.filetype-wps:before { content: "\E009"; }
+
+.filetype-docx:before { content: "\E010"; }
+
+.filetype-page:before { content: "\E011"; }
+
+.filetype-csv:before { content: "\E012"; }
+
+.filetype-dat:before { content: "\E013"; }
+
+.filetype-tar:before { content: "\E014"; }
+
+.filetype-xml:before { content: "\E015"; }
+
+.filetype-vcf:before { content: "\E016"; }
+
+.filetype-pps:before { content: "\E017"; }
+
+.filetype-key:before { content: "\1F511"; }
+
+.filetype-ppt:before { content: "\E019"; }
+
+.filetype-pptx:before { content: "\E020"; }
+
+.filetype-sdf:before { content: "\E021"; }
+
+.filetype-gbr:before { content: "\E022"; }
+
+.filetype-ged:before { content: "\E023"; }
+
+.filetype-mp3:before { content: "\E024"; }
+
+.filetype-m4a:before { content: "\E025"; }
+
+.filetype-waw:before { content: "\E026"; }
+
+.filetype-wma:before { content: "\E027"; }
+
+.filetype-mpa:before { content: "\E028"; }
+
+.filetype-iff:before { content: "\E029"; }
+
+.filetype-aif:before { content: "\E030"; }
+
+.filetype-ra:before { content: "\E031"; }
+
+.filetype-mid:before { content: "\E032"; }
+
+.filetype-m3v:before { content: "\E033"; }
+
+.filetype-e_3gp:before { content: "\E034"; }
+
+.filetype-shf:before { content: "\E035"; }
+
+.filetype-avi:before { content: "\E036"; }
+
+.filetype-asx:before { content: "\E037"; }
+
+.filetype-mp4:before { content: "\E038"; }
+
+.filetype-e_3g2:before { content: "\E039"; }
+
+.filetype-mpg:before { content: "\E040"; }
+
+.filetype-asf:before { content: "\E041"; }
+
+.filetype-vob:before { content: "\E042"; }
+
+.filetype-wmv:before { content: "\E043"; }
+
+.filetype-mov:before { content: "\E044"; }
+
+.filetype-srt:before { content: "\E045"; }
+
+.filetype-m4v:before { content: "\E046"; }
+
+.filetype-flv:before { content: "\E047"; }
+
+.filetype-rm:before { content: "\E048"; }
+
+.filetype-png:before { content: "\E049"; }
+
+.filetype-psd:before { content: "\E050"; }
+
+.filetype-psp:before { content: "\E051"; }
+
+.filetype-jpg:before { content: "\E052"; }
+
+.filetype-tif:before { content: "\E053"; }
+
+.filetype-tiff:before { content: "\E054"; }
+
+.filetype-gif:before { content: "\E055"; }
+
+.filetype-bmp:before { content: "\E056"; }
+
+.filetype-tga:before { content: "\E057"; }
+
+.filetype-thm:before { content: "\E058"; }
+
+.filetype-yuv:before { content: "\E059"; }
+
+.filetype-dds:before { content: "\E060"; }
+
+.filetype-ai:before { content: "\E061"; }
+
+.filetype-eps:before { content: "\E062"; }
+
+.filetype-ps:before { content: "\E063"; }
+
+.filetype-svg:before { content: "\E064"; }
+
+.filetype-pdf:before { content: "\E065"; }
+
+.filetype-pct:before { content: "\E066"; }
+
+.filetype-indd:before { content: "\E067"; }
+
+.filetype-xlr:before { content: "\E068"; }
+
+.filetype-xls:before { content: "\E069"; }
+
+.filetype-xlsx:before { content: "\E070"; }
+
+.filetype-db:before { content: "\E071"; }
+
+.filetype-dbf:before { content: "\E072"; }
+
+.filetype-mdb:before { content: "\E073"; }
+
+.filetype-pdb:before { content: "\E074"; }
+
+.filetype-sql:before { content: "\E075"; }
+
+.filetype-aacd:before { content: "\E076"; }
+
+.filetype-app:before { content: "\E077"; }
+
+.filetype-exe:before { content: "\E078"; }
+
+.filetype-com:before { content: "\E079"; }
+
+.filetype-bat:before { content: "\E080"; }
+
+.filetype-apk:before { content: "\E081"; }
+
+.filetype-jar:before { content: "\E082"; }
+
+.filetype-hsf:before { content: "\E083"; }
+
+.filetype-pif:before { content: "\E084"; }
+
+.filetype-vb:before { content: "\E085"; }
+
+.filetype-cgi:before { content: "\E086"; }
+
+.filetype-css:before { content: "\E087"; }
+
+.filetype-js:before { content: "\E088"; }
+
+.filetype-php:before { content: "\E089"; }
+
+.filetype-xhtml:before { content: "\E090"; }
+
+.filetype-htm:before { content: "\E091"; }
+
+.filetype-html:before { content: "\E092"; }
+
+.filetype-asp:before { content: "\E093"; }
+
+.filetype-cer:before { content: "\E094"; }
+
+.filetype-jsp:before { content: "\E095"; }
+
+.filetype-cfm:before { content: "\E096"; }
+
+.filetype-aspx:before { content: "\E097"; }
+
+.filetype-rss:before { content: "\E098"; }
+
+.filetype-csr:before { content: "\E099"; }
+
+.filetype-less:before { content: "\003C"; }
+
+.filetype-otf:before { content: "\E101"; }
+
+.filetype-ttf:before { content: "\E102"; }
+
+.filetype-font:before { content: "\E103"; }
+
+.filetype-fnt:before { content: "\E104"; }
+
+.filetype-eot:before { content: "\E105"; }
+
+.filetype-woff:before { content: "\E106"; }
+
+.filetype-zip:before { content: "\E107"; }
+
+.filetype-zipx:before { content: "\E108"; }
+
+.filetype-rar:before { content: "\E109"; }
+
+.filetype-targ:before { content: "\E110"; }
+
+.filetype-sitx:before { content: "\E111"; }
+
+.filetype-deb:before { content: "\E112"; }
+
+.filetype-e_7z:before { content: "\E113"; }
+
+.filetype-pkg:before { content: "\E114"; }
+
+.filetype-rpm:before { content: "\E115"; }
+
+.filetype-cbr:before { content: "\E116"; }
+
+.filetype-gz:before { content: "\E117"; }
+
+.filetype-dmg:before { content: "\E118"; }
+
+.filetype-cue:before { content: "\E119"; }
+
+.filetype-bin:before { content: "\E120"; }
+
+.filetype-iso:before { content: "\E121"; }
+
+.filetype-hdf:before { content: "\E122"; }
+
+.filetype-vcd:before { content: "\E123"; }
+
+.filetype-bak:before { content: "\E124"; }
+
+.filetype-tmp:before { content: "\E125"; }
+
+.filetype-ics:before { content: "\E126"; }
+
+.filetype-msi:before { content: "\E127"; }
+
+.filetype-cfg:before { content: "\E128"; }
+
+.filetype-ini:before { content: "\E129"; }
+
+.filetype-prf:before { content: "\E30"; }
