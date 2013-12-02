@@ -22,8 +22,5 @@ A GLYPHICONS PRO 1.8 license is required. Once a license is purchased, download 
 
 
 ## TABLE OF CONTENTS
-<<<<<<< HEAD
-![Glyphicons 1.8 tabel of contents](https://raw.github.com/jmak/bootstrap-glyphicons-fonts/master/glyphicons_1.8.gif)
-=======
 ![Glyphicons 1.8 tabel of contents](https://raw.github.com/jmak/bootstrap-glyphicons-fonts/master/470-GLYPHICONS/glyphicons_1.8.gif)
->>>>>>> add GLYPHICONS Filetypes, Halflings, Social
+
