@@ -54,7 +54,7 @@
 
 .filetype-pps:before { content: "\E017"; }
 
-.filetype-key:before { content: "\1F511"; }
+.filetype-key:before { content: "\E018"; }
 
 .filetype-ppt:before { content: "\E019"; }
 
@@ -122,7 +122,7 @@
 
 .filetype-psp:before { content: "\E051"; }
 
-.filetype-jpg:before { content: "\E052"; }
+.filetype-jpg:before, .filetype-jpeg:before { content: "\E052"; }
 
 .filetype-tif:before { content: "\E053"; }
 
@@ -278,4 +278,4 @@
 
 .filetype-ini:before { content: "\E129"; }
 
-.filetype-prf:before { content: "\E30"; }
+.filetype-prf:before { content: "\E130"; }
