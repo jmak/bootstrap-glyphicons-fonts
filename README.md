@@ -15,7 +15,8 @@ Using SASS in your project you can easily prefix icons to avoid collision with o
 
 ## REQUIREMENT
 
-A GLYPHICONS PRO 1.9.2 license is required. Once a license is purchased, download the appropriate font files (glyphicons-regular.woff2, glyphicons-regular.woff, ...) into the font folder.
+A GLYPHICONS PRO 1.9.2 license is required. Once a license is purchased, download the appropriate font files (glyphicons-regular.woff2, glyphicons-regular.woff) into the font folder.
+http://caniuse.com/#search=woff
 
 [Purchase GLYPHICONS PRO](http://glyphicons.com/)
 
